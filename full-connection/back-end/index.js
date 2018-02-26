@@ -3,15 +3,15 @@ const express = require('express');
 const app = express();
 
 
-// app.use(function (req, res, next) {
-//     "use strict";
-//     // We need the following as you'll run HTML+JS+Ajax+jQuery on http://localhost, 
-//     // but service is taken from http://protoNNN.haaga-helia.fi (NNN is some number)
-//     // https://www.w3.org/TR/cors/#access-control-allow-origin-response-header
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//     next();
-// });
+app.use(function (req, res, next) {
+    "use strict";
+    // We need the following as you'll run HTML+JS+Ajax+jQuery on http://localhost, 
+    // but service is taken from http://protoNNN.haaga-helia.fi (NNN is some number)
+    // https://www.w3.org/TR/cors/#access-control-allow-origin-response-header
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 
 // Do you understand why utilizing body parser here will make it usable
 // in routes/api/people.js ?
