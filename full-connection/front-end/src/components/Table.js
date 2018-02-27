@@ -9,11 +9,13 @@ import {
 } from 'material-ui/Table';
 
 export default class TableExampleSimple extends Component {
-  constructor(props) {
-    super(props)
 
-    // this.state = { };
-  };
+//   componentWillReceiveProps(nextProps) {
+//     if(JSON.stringify(this.props.data) !== JSON.stringify(nextProps.data)) // Check if it's a new user, you can also use some unique, like the ID
+//     {
+//            this.updateUser();
+//     }
+// } 
 
   render() {
     return (
