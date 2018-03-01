@@ -117,7 +117,6 @@ clearState(){
             onChange={this.handleChangeLastName}/>
                 <button onClick={this.onClickPost}>Send</button>
                 <button onClick={this.clearState}>clear</button>
-                <button onClick={this.fetchData}>fetch</button>
                 <Table>
             <TableHeader>
               <TableRow>
