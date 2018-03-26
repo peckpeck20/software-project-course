@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Zoran",
+    "lastName": "Sakic",
+    "votes": 22,
+    "imageFileName": "portrait010.jpg"
+  },
+  {
+    "firstName": "Emma",
+    "lastName": "Mäki",
+    "votes": 13,
+    "imageFileName": "portrait003.jpg"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Laine",
+    "votes": 44444,
+    "imageFileName": "portrait002.jpg"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Mäki",
+    "votes": 13,
+    "imageFileName": "portrait007.jpg"
+  },
+  {
+    "firstName": "Aapeli",
+    "lastName": "Joki",
+    "votes": 2,
+    "imageFileName": "portrait006.jpg"
+  }
+]

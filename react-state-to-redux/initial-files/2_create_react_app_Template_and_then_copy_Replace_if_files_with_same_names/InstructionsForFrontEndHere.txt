@@ -1,0 +1,33 @@
+Install Node.js (npm is included in Node.js installation)
+
+Install create-react-app with npm
+
+Create a new app, e.g. candidates-ajax with create-react-app
+
+(((Template project had 2017-11-11 
+21 304 files in 3 092 folders, altogether 145 MB. Making copy
+from same SSD to itself took 2,5 mins. So 20 times more
+over network?)))
+
+
+go in that folder in file explorer
+
+copy & paste ALL given front-end files/folders there in the same folder (src?). 
+App.js and index.css give you hint where the single paste happens. Replace those
+when asked.
+
+This time there was no need to install additional packages, I think?
+At least I cannot remember ever running any npm install (Not IN FRONT-END!!!,
+in back-end on proto yes!)
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Remember to change at least the port number and url part 44444 everywhere
+to your port number!
+
+This code is tested and ran. In Windows + proto372 + images are from Myy.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXxx
+
+Happy hacking and exploring!
+

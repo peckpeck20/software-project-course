@@ -1,0 +1,30 @@
+Install Node.js (npm is included in Node.js installation)
+
+create a folder for app if needed, e.g. my_node_app
+
+npm init in that folder
+
+go in that folder in WinSCP
+
+copy & paste all given back-end files there. package.json gives you hint where the paste happens. Replace files if asked.
+
+This time there is no need to install additional at backend. At least:
+npm install express
+npm install body-parser
+
+node server44444.js            (or similar) 
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+Remember to change at least the port number and url part 44444 everywhere
+to your port number!
+
+This code is tested and ran. In Windows + proto372 + images are from Myy.
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXxx
+
+Happy hacking and exploring! 
+
+If you don't get it running, you can analyze the code. it works.
+
+

@@ -1,0 +1,31 @@
+// Front-end
+
+1. lists current list of candidates from back-end on the front-end.
+
+2. polls every 3 seconds for changes in back-end list
+
+3. allows for adding new candidates to the back-end. Kept in file system. (And thus
+in max 3 seconds to front-end as well!)
+
+4. gives possibility to reset the candidate list to the original list
+
+5. modules etc. put nicely to separate files and folders
+
+6. Fetch API used for AJAX.
+
+
+
+// Back-end provides the needed Web Service API:
+
+- candidates (GET, lists them as JSON)
+- addCandidate (POST, tries to add new candidate based on sent JSON)
+- checkIfNameExists (POST, will check how many times a first name appears in back-end list. No front-end for this implemented)
+- resetCandidateList (GET, resets list to the candidates-original.json list)
+
+
+
+// Missing still:
+
+- routing inside React SPA
+- utilizing HttpStatus codes better, like 504 server timeout. Now just success and failure separated from each other.
+
