@@ -1,5 +1,5 @@
 import React from 'react';
-import {DYNAMIC_WEB_SERVICE_API_SERVER_URL} from '../CONSTANTS/Constants';
+// import {DYNAMIC_WEB_SERVICE_API_SERVER_URL} from '../CONSTANTS/Constants';
 import CandidateListItem from './CandidateListItem';
 
 export default class FindCandidateForm extends React.Component {
@@ -15,21 +15,21 @@ export default class FindCandidateForm extends React.Component {
                                    imageFileName:""}  };
   }
 
-  setupAndCallAjaxPOST = (that, newCandidate) => {
-    fetch(DYNAMIC_WEB_SERVICE_API_SERVER_URL+"/findCandidate", {
-      method:'POST',
-      headers: {'Accept':'application/json','Content-Type':'application/json'},
-      body: JSON.stringify(newCandidate)
-    })
-    .then( (Response) => Response.json())
-    .then( (jsObj) => {
-      // console.dir(jsObj);
-      that.setState({foundCandidate:jsObj});
-    })
-    .catch(function(err) {
-      console.log("Failure - " + err);
-    });
-  };
+  // setupAndCallAjaxPOST = (that, newCandidate) => {
+  //   fetch(DYNAMIC_WEB_SERVICE_API_SERVER_URL+"/findCandidate", {
+  //     method:'POST',
+  //     headers: {'Accept':'application/json','Content-Type':'application/json'},
+  //     body: JSON.stringify(newCandidate)
+  //   })
+  //   .then( (Response) => Response.json())
+  //   .then( (jsObj) => {
+  //     // console.dir(jsObj);
+  //     that.setState({foundCandidate:jsObj});
+  //   })
+  //   .catch(function(err) {
+  //     console.log("Failure - " + err);
+  //   });
+  // };
 
   inputChanged = (event) => {
     this.setState({searchedCandidate: {...this.state.searchedCandidate,

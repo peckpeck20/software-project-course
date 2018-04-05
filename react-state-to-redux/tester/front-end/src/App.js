@@ -2,9 +2,12 @@ import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import CandidateList from "./Components/CandidateList";
-import AddCandidateForm from "./Components/AddCandidateForm";
 import ResetCandidateList from "./Components/ResetCandidateList";
-import FindCandidateForm from "./Components/FindCandidateForm";
+// import AddCandidateForm from "./Components/AddCandidateForm";
+// import ResetCandidateList from "./Components/ResetCandidateList";
+// import FindCandidateForm from "./Components/FindCandidateForm";
+
+
 
 class App extends Component {
   render() {
@@ -15,7 +18,12 @@ class App extends Component {
           <h1 className="App-title">Candidates React + AJAX (Fetch API)</h1>
         </header>
 
-        <CandidateList />
+       <CandidateList/>
+       <hr />
+        <ResetCandidateList />
+
+
+        {/* <CandidateList />
 
         <hr />
         <AddCandidateForm />
@@ -40,7 +48,7 @@ class App extends Component {
               "E.g. Front-end React Routing (SPA-way) could be added. But that's not included in first exam"
             }
           </p>
-        </footer>
+        </footer> */}
       </div>
     );
   }
